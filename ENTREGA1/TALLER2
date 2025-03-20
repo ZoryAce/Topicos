@@ -3,10 +3,11 @@
     {
       "cell_type": "markdown",
       "metadata": {
-        "id": "view-in-github"
+        "id": "view-in-github",
+        "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/sergiomora03/AdvancedTopicsAnalytics/blob/main/exercises/E1-UsedVehiclePricePredictionDeployment.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/ZoryAce/Topicos/blob/main/ENTREGA1/TALLER2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -642,7 +643,7 @@
       "cell_type": "code",
       "source": [
         "#se trae el dataset con informacion adicional\n",
-        "datos_enriquecidos = pd.read_excel(\"datos_enriquecidos.xlsx\")\n",
+        "datos_enriquecidos = pd.read_excel(\"https://github.com/ZoryAce/Topicos/raw/main/ENTREGA1/TALLER1/datos_enriquecidos.xlsx\")\n",
         "\n",
         "# Realizar el join y eliminar la columna model\n",
         "data = data.merge(datos_enriquecidos, on=\"Model\", how=\"left\")\n",
@@ -2323,7 +2324,8 @@
     },
     "colab": {
       "provenance": [],
-      "gpuType": "T4"
+      "gpuType": "T4",
+      "include_colab_link": true
     },
     "accelerator": "GPU",
     "widgets": {
